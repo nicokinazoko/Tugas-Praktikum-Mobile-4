@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+<!--    &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        >-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/iv_FotoPahlawan"
+            android:layout_width="100dp"
+            android:layout_height="300dp"
+            android:src="@drawable/ahmad_dahlan"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_NamaPahlawan"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text="Nama Pahlawan"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/tv_DetailPahlawan"
+            android:layout_width="500dp"
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            android:text="Biografi" />
+
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Share">
+
+        </Button>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
