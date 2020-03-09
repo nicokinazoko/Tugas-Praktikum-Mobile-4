@@ -42,7 +42,7 @@ public class HomeFragment extends Fragment {
     }
 
     private void showRecyclerList() {
-        rvPahlawan.setLayoutManager(new LinearLayoutManager(this));
+        rvPahlawan.setLayoutManager(new LinearLayoutManager(getContext()));
         PahlawanAdapter pahlawanAdapter         =   new PahlawanAdapter(this);
         pahlawanAdapter.setPahlawanModels(listPahlawan);
         rvPahlawan.setAdapter(pahlawanAdapter);
