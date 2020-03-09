@@ -11,13 +11,15 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_heroes"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
     <FrameLayout
         android:id="@+id/activitymain_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1" />
+
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/activitymain_bottomnav"

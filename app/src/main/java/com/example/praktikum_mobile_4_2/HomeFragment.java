@@ -21,6 +21,7 @@ import java.util.ArrayList;
 public class HomeFragment extends Fragment {
 
     private RecyclerView rvPahlawan;
+    private RecyclerView.Adapter mRecyclerView;
     private ArrayList<PahlawanModel> listPahlawan       =   new ArrayList<>();
     private Button share;
     public HomeFragment() {
